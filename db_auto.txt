@@ -1,0 +1,20 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati 
+riguardanti delle auto usate messe in vendita da un concessionario
+
+1. ID -> numero, INT, Primary Key ( Auto_Increment, Unique, Index), NOTNULL
+2. POSTER -> stringa, VARCHAR(100) - DEFAULT - NOTNULL
+3. DESCRIZIONE -> stringa, TEXT
+4. CARBURANTE -> stringa, VARCHAR (20), NOTNULL
+5. COLORE -> stringa, VARCHAR(20)
+6. MARCA -> stringa, VARCHAR(15), NOTNULL 
+7. KM -> numero, MEDIUMINT, NOTNULL
+8. CILINDRATA -> numero, TINYINT
+9. CAVALLI -> numero, SMALLINT, NOTNULL
+10. ANNO IMMATRICOLAZIONE -> numero, YEAR, NOTNULL
+11. POSTI -> numero, TINYINT, NOTNULL
+12. LUNGHEZZA -> numero, TINYINT
+13. LARGHEZZA -> numero, TINYINT
+14. ALTEZZA -> numero, TINYINT
+15. PROPRIETARI PRECEDENTI -> numero, TINYINT
+16. PREZZO -> numero, FLOAT(10,2), NOTNULL
+17. PORTE -> numero, TINYINT, NOTNULL
